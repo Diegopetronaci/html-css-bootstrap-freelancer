@@ -45,8 +45,17 @@
 .container_green{
   background-color: #1abc9c;
 }
+.btn_green{
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  background-color: #1abc9c;
+  padding: 12px 20px;
+  border-radius: 5px;
+}
 /* utlity */
 
+/* inizio header */
 #img_profilo{
   height: 200px;
   margin-bottom: 50px;
@@ -67,6 +76,9 @@
   display: inline-block;
   width: 150px;
 }
+/* fine header */
+
+/* inizio main */
 .top_main h1,.top_main hr,.top_main p,.top_main i{
   color: white;
 }
@@ -106,6 +118,20 @@
   border-radius: 10px;
   padding: 15px 10px;
 }
+#contact_me{
+  font-size: 45px;
+  margin-top: 70px;
+  font-weight: bold;
+}
+.form-control{
+  border: 0;
+}
+.form-control::placeholder{
+  color: black;
+}
+/* fine main */
+
+/* inizio footer */
 .blocco .col-lg-4{
   background-color: red;
   height: 200px;
@@ -123,3 +149,4 @@
   background-color: #2c3e50;
   color:white;
 }
+/* fine footer */
