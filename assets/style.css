@@ -184,5 +184,10 @@
 .top_footer h3{
   font-size: 25px;
 }
-
 /* fine footer */
+
+@media all and (max-width: 768px) {
+  #container_speciale_blu_chiaro{
+    height: 500px;
+  }
+}
